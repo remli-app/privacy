@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Remli Privacy Policy</title>
+<meta name="description" content="How Remli, the offline reminder app for Android, handles your information.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --bg: #07090f;
+    --surface: #111522;
+    --surface-hi: #181d2d;
+    --line: rgba(255,255,255,.08);
+    --text: #f4f1ea;
+    --dim: #a3a8ba;
+    --faint: #6b7186;
+    --accent: #8ab4ff;
+    --gold: #e8c67a;
+    --ok: #6ee7b7;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-image: radial-gradient(1200px 600px at 85% -10%, rgba(76,111,255,.22), transparent 60%);
+    background-repeat: no-repeat;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  .logo { width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(135deg,#141a33,#06080f);
+          display: grid; place-items: center; box-shadow: 0 0 0 1px var(--line), 0 10px 30px rgba(76,111,255,.25); flex: none; }
+  .over { color: var(--accent); letter-spacing: .18em; font-size: 12px; font-weight: 600; text-transform: uppercase; margin: 0; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(32px, 7vw, 46px); line-height: 1.1; margin: 4px 0 0; }
+  .updated { color: var(--faint); font-size: 14px; margin: 14px 0 28px; }
+  .card { background: linear-gradient(180deg, var(--surface-hi), var(--surface)); border: 1px solid var(--line);
+          border-radius: 24px; padding: 22px 22px 8px; margin: 18px 0; }
+  .summary { border-color: rgba(110,231,183,.35); background: linear-gradient(135deg, rgba(110,231,183,.12), var(--surface)); }
+  .summary ul { list-style: none; padding: 0; margin: 0 0 12px; }
+  .summary li { padding: 8px 0 8px 34px; position: relative; }
+  .summary li::before { content: "✓"; position: absolute; left: 0; top: 7px; width: 22px; height: 22px; border-radius: 50%;
+                        background: rgba(110,231,183,.18); color: var(--ok); display: grid; place-items: center; font-size: 13px; font-weight: 700; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 24px; margin: 0 0 10px; }
+  h3 { font-size: 16px; margin: 18px 0 6px; }
+  p, li { color: var(--dim); }
+  strong { color: var(--text); }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 14px; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--text); font-weight: 600; }
+  td { color: var(--dim); }
+  td:first-child { color: var(--text); white-space: nowrap; }
+  .contact { text-align: center; padding: 26px 22px; }
+  .btn { display: inline-block; margin-top: 6px; padding: 12px 22px; border-radius: 999px; text-decoration: none; font-weight: 600;
+         color: #07090f; background: linear-gradient(90deg, #8ab4ff, #4c6fff); }
+  footer { text-align: center; color: var(--faint); font-size: 13px; margin-top: 36px; }
+  @media (max-width: 480px) { td:first-child { white-space: normal; } .card { padding: 18px 16px 6px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="34" height="34" viewBox="20 20 68 68"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3D98B"/><stop offset="1" stop-color="#C9973F"/></linearGradient></defs>
+        <path d="M60,35 A22,22 0 1,0 60,77 A24,24 0 0,1 60,35 Z" fill="url(#g)"/>
+        <path d="M74,33 Q75,41 83,42 Q75,43 74,51 Q73,43 65,42 Q73,41 74,33 Z" fill="#F3D98B"/>
+        <circle cx="76" cy="62" r="2.4" fill="#F3D98B"/></svg>
+    </div>
+    <div>
+      <p class="over">Remli · Calm, crafted reminders</p>
+      <h1>Privacy Policy</h1>
+    </div>
+  </header>
+  <p class="updated">Last updated: 8 November 2026</p>
+
+  <p>Remli (“the app”, “we”, “us”) is an offline reminder app for Android. This policy explains what information the app handles, where it is kept, and the choices you have.</p>
+
+  <section class="card summary" aria-labelledby="summary">
+    <h2 id="summary">In short</h2>
+    <ul>
+      <li>Your reminders and settings are stored <strong>only on your device</strong>.</li>
+      <li>Remli has <strong>no internet permission</strong>, so the app itself cannot send your data anywhere.</li>
+      <li><strong>No accounts, no analytics, no advertising</strong> and no crash-reporting services.</li>
+      <li>We <strong>do not collect, sell or share</strong> your personal information.</li>
+      <li>If you email us feedback, your own email app sends only what you decide to send.</li>
+    </ul>
+  </section>
+
+  <section class="card" aria-labelledby="stored">
+    <h2 id="stored">Information stored on your device</h2>
+    <p>Remli stores the following in its private app storage on your phone:</p>
+    <ul>
+      <li><strong>Reminders you create</strong>: titles, notes, dates and times, repeat rules, checklists, tags, list/category, priority, chosen icon, sound and vibration, and any location text or link you type in.</li>
+      <li><strong>Settings</strong>: accent colour, app icon, sounds, quiet-hours times, clock format and similar preferences, plus an optional first name used only for the greeting on the home screen.</li>
+      <li><strong>Activity counts</strong>: how many reminders you completed per day, used only to show streaks and Insights inside the app.</li>
+    </ul>
+    <p>This information never leaves your device through Remli. Android keeps each app’s private storage separate, so other apps cannot read it.</p>
+    <h3>Device backups</h3>
+    <p>Remli allows Android’s standard backup feature. If you have turned on device backup (for example Google backup on Google devices, or your phone maker’s backup service), Android may include Remli’s data in that backup. Your backup provider handles these backups under its own privacy policy. You can turn device backup off in your phone’s settings.</p>
+  </section>
+
+  <section class="card" aria-labelledby="collect">
+    <h2 id="collect">Information we collect</h2>
+    <p><strong>None.</strong> Remli does not collect personal information, and nothing you enter in the app is sent to us or to anyone else. The only time we receive anything is when you choose to email us (see “Feedback emails”).</p>
+    <h2 id="share">Information we share</h2>
+    <p><strong>None.</strong> We do not sell, rent or share your information with anyone, and Remli contains no third-party advertising, analytics or tracking code.</p>
+  </section>
+
+  <section class="card" aria-labelledby="perms">
+    <h2 id="perms">Permissions and why they are used</h2>
+    <table>
+      <thead><tr><th scope="col">Permission</th><th scope="col">Why</th></tr></thead>
+      <tbody>
+        <tr><td>Notifications</td><td>To show your reminders.</td></tr>
+        <tr><td>Exact alarms</td><td>To deliver reminders at the exact minute you set.</td></tr>
+        <tr><td>Run at startup</td><td>To set your reminders again after the phone restarts.</td></tr>
+        <tr><td>Vibrate, wake lock</td><td>To vibrate and to keep alarms ringing reliably.</td></tr>
+        <tr><td>Full-screen notifications, foreground service</td><td>To show alarm-style reminders over the lock screen.</td></tr>
+        <tr><td>Ignore battery optimisations (optional)</td><td>To keep the system from delaying reminders, if you allow it.</td></tr>
+      </tbody>
+    </table>
+    <p>Remli does <strong>not</strong> request access to your contacts, location, camera, microphone, photos, files or the internet.</p>
+  </section>
+
+  <section class="card" aria-labelledby="feedback">
+    <h2 id="feedback">Feedback emails</h2>
+    <p>If you choose <strong>Settings → About Remli → Feedback &amp; Support</strong> and pick Suggest a Feature, Report a Bug or General Feedback, Remli opens your own email app with a prepared draft addressed to <a href="mailto:remli.support@gmail.com">remli.support@gmail.com</a>. The draft includes:</p>
+    <ul>
+      <li>the app version and build number,</li>
+      <li>your Android version,</li>
+      <li>your device manufacturer (bug reports only) and device model.</li>
+    </ul>
+    <p>You can read, change or delete any of this before sending, and nothing is sent unless you press send yourself. The draft never includes your reminders, contacts, location, phone number or device identifiers. If you send the email, we receive your email address and whatever you wrote. We use it only to reply to you and to improve Remli, and we delete it when it is no longer needed. Your email provider’s own privacy policy applies to sending it.</p>
+  </section>
+
+  <section class="card" aria-labelledby="links">
+    <h2 id="links">Links to other services</h2>
+    <p><strong>Rate Remli</strong> opens the Google Play Store, and the online copy of this policy opens in your browser. Those services are run by their own providers under their own privacy policies.</p>
+  </section>
+
+  <section class="card" id="delete" aria-labelledby="choices">
+    <h2 id="choices">Your choices and deleting your data</h2>
+    <ul>
+      <li><strong>Delete a reminder</strong>: open it and tap the delete button, or press and hold it on the home screen.</li>
+      <li><strong>Delete finished reminders</strong>: Settings → Data → Clear completed.</li>
+      <li><strong>Delete everything</strong>: uninstall Remli, or go to your phone’s Settings → Apps → Remli → Storage → Clear data.</li>
+      <li><strong>Feedback emails</strong>: write to <a href="mailto:remli.support@gmail.com">remli.support@gmail.com</a> and we will delete any emails you have sent us.</li>
+    </ul>
+  </section>
+
+  <section class="card" aria-labelledby="children">
+    <h2 id="children">Children</h2>
+    <p>Remli is suitable for general audiences and does not knowingly collect personal information from anyone, including children.</p>
+    <h2 id="changes">Changes</h2>
+    <p>If this policy changes, the new version will be published at this address with a new “Last updated” date. Important changes will also be mentioned in the app’s release notes.</p>
+  </section>
+
+  <section class="card contact" aria-labelledby="contact">
+    <h2 id="contact">Questions?</h2>
+    <p>We’d love to help.</p>
+    <a class="btn" href="mailto:remli.support@gmail.com?subject=Remli%20-%20Privacy%20question">Email remli.support@gmail.com</a>
+  </section>
+
+  <footer>© 2026 Remli</footer>
+</main>
+</body>
+</html>
